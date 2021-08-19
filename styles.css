@@ -1,0 +1,60 @@
+html{
+    scroll-behavior: smooth;
+
+}
+body{
+    background:linear-gradient(45deg,palegreen,mediumspringgreen);
+    font-family:"Comic Sans MS",sans-serif;
+    text-align: center;
+
+}
+
+a{
+    text-decoration:none;
+}
+#nav a{
+    color:blue;
+    font-size:20px;
+
+
+}
+#nav {
+
+    position:fixed;
+    top:0px;
+}
+.content table{
+    width:100%;
+}
+.content h2
+{
+    text-align:center;
+    background-color:orangered;
+    color:whitesmoke;
+    padding:10px;
+    border-radius:50%;
+    width:400px;
+    margin: auto;
+}
+.content thead tr th img{
+    border-radius:10px;
+    box-shadow: 0 0 10px black;
+}
+#footer h2
+{
+    background-color:orangered;
+    color:whitesmoke;
+    padding:10px;
+    border-radius:50%;
+    width:500px;
+    margin: auto;
+}
+#footer p
+{
+    color:black;
+
+}
+
+#gmap{
+    margin:10px;
+}
